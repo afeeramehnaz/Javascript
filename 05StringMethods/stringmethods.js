@@ -27,6 +27,35 @@ let lowerCase = caseChange.toLowerCase();
 let replaceString = "I like cats!";
 let newString = replaceString.replace("cats", "dogs"); // Replace
 
+var fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+// Extract elements from index 1 to index 3 (not including 3)
+var slicedFruits = fruits.slice(1, 3);
+console.log(slicedFruits);
+// Output: ['banana', 'orange']
+// Original array remains unchanged
+console.log(fruits);
+// Output: ['apple', 'banana', 'orange', 'grape', 'kiwi']
+var fruits = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+
+// Remove 2 elements starting from index 1
+var removedElements = fruits.splice(1, 2);
+
+console.log(removedElements);
+// Output: ['banana', 'orange']
+
+// Original array is modified
+console.log(fruits);
+// Output: ['apple', 'grape', 'kiwi']
+
+var fruits = ['apple', 'grape', 'kiwi'];
+
+// Insert 'orange' and 'banana' starting from index 1
+fruits.splice(1, 0, 'orange', 'banana');
+
+console.log(fruits);
+// Output: ['apple', 'orange', 'banana', 'grape', 'kiwi']
+
+
 console.log("Concatenation:", greeting);
 console.log("String Length:", length);
 console.log("Accessing Characters:", firstChar, thirdChar);

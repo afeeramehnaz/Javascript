@@ -20,15 +20,15 @@ var d=12
     let a="afeera";
     console.log(a);//afeera
 }
-console.log(a);//100
+console.log(a);//ReferenceError: a is not defined
 
 
 /* ************************************************* */
 
 
 
-//str="sabhi";
-//console.log(str);//Uncaught TypeError TypeError: Assignment to constant variable.
+str="Mehnaz";
+console.log(str);//Uncaught TypeError TypeError: Assignment to constant variable.
 
 /* ************************************************* 
 var is function-scoped. It means that a variable declared with var is visible within the function in which it is declared, regardless of block scope.
@@ -39,7 +39,7 @@ function example()
     console.log("Inside function z:",z);
 }
 example();//Inside function z: 999
-//console.log(z);//Uncaught ReferenceError ReferenceError: z is not defined
+console.log(z);//Uncaught ReferenceError ReferenceError: z is not defined
 
 
 
