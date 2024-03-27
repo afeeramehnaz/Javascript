@@ -25,7 +25,7 @@ setTimeout(() => {
 
 
 // Example 2: Nested AJAX (assuming a simplified scenario)
-ajax('GET', '/api/resource1', (response1) => {
+ajax('GET', '/api/resource1', (response1) => {  
     console.log('Request 1 completed');
     
     ajax('GET', '/api/resource2', (response2) => {

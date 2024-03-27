@@ -1,21 +1,27 @@
 /**
  * 
- * promises are a mechanism used for asynchronous programming. They are objects that represent the eventual completion (or failure) of an asynchronous operation and allow you to handle the result (or error) of that operation when it becomes available.
+Promises are a fundamental concept in JavaScript used for handling asynchronous operations. 
+They provide a more elegant way to deal with asynchronous code compared to traditional callback functions. 
+Promises represent the eventual completion or
+ failure of an asynchronous operation and allow you to attach callbacks to handle the results.
+*/
 
-Here's a basic overview of promises:
+/***********Creating a Promise*************** */
 
-States: A promise can be in one of three states:
+const myPromisee = new Promise((resolve, reject) => {
+  // Asynchronous operation, e.g., fetching data from a server
+  // If successful, call resolve
+  // If failed, call reject
+});
 
-1.Pending: Initial state, neither fulfilled nor rejected.
-2.Fulfilled: The operation completed successfully.
-3.Rejected: The operation failed.
 
-Handling results: Promises provide methods (then(), catch(), and finally()) to handle the result or error of an asynchronous operation once it's completed.
+/**************Promise States***************/
 
-Chaining: Promises can be chained together using then() to perform multiple asynchronous operations sequentially or in parallel.
+// Pending: Initial state, neither fulfilled nor rejected.
+// Fulfilled: The operation completed successfully.
+// Rejected: The operation failed.
 
-Error handling: Promises allow for elegant error handling through the catch() method, which is executed when a promise is rejected.
- */
+
 
 
 // Creating a promise
