@@ -22,20 +22,3 @@ switch (day) {
     console.log("Some other day");
 }
 
-//for loop
-
-let numarr=[1,2,3,4,5];
-
-numarr.forEach((item)=>{
-    console.log(item);
-})
-
-// for...of 
-for (let item of numarr){
-    console.log(item)
-  }
-  
-  // for...in
-  for (let i in numarr){
-    console.log(num[i])
-  }

@@ -1,9 +1,7 @@
-/*
-*
-In JavaScript, the prototype is a mechanism that allows you to share properties and 
-methods among objects. Every JavaScript object has a prototype, and when you access a property or method on an object, 
-if it's not found directly on the object, JavaScript looks for it in the object's prototype chain.
-
+/**************Prototypes*************** */
+/**
+In JavaScript, prototypes are a mechanism for implementing inheritance and sharing properties and methods between objects. 
+Understanding prototypes is fundamental to understanding how inheritance works in JavaScript. 
 */
 
 

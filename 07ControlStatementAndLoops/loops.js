@@ -5,13 +5,15 @@ while (count < 5) {
   console.log("Count is: ", count);
   count++;
 }
-
+/************************************** */
 // Do-While Loop
 let i = 0;
 do {
   console.log("i is: ", i);
   i++;
 } while (i < 5);
+
+/************************************** */
 
 // For Loop
 for (let i = 0; i < 5; i++) {
@@ -34,6 +36,15 @@ let fruits = ["Apple", "Orange", "Banana"];
 for (let fruit of fruits) {
   console.log(fruit);
 }
+
+let numarr=[1,2,3,4,5];
+
+numarr.forEach((item)=>{
+    console.log(item);
+})
+
+/************************************** */
+
 
 // Break and Continue
 for (let i = 0; i < 10; i++) {

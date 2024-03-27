@@ -3,7 +3,7 @@
  * In JavaScript specifically, callbacks are functions passed as arguments to other functions. 
  * These callback functions are then "called back" at a later point in time, 
  * often after asynchronous operations have completed. 
- * This allows your code to continue executing without being blocked by slow tasks.s
+ * This allows your code to continue executing without being blocked by slow tasks.
  */
 
 
