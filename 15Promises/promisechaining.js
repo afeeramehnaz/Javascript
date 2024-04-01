@@ -16,3 +16,8 @@ p1.then((value) => {
 }).then((value)=>{
     console.log("Now we are pakka done")
 })
+
+//Resolved after 2 seconds
+//Promise 2
+//We are done
+//Now we are pakka done

@@ -1,0 +1,5 @@
+The BOM represents everything else in the browser window that's not related to the document itself.
+It includes objects such as the window object, which represents the browser window and provides methods and properties for interacting with it.
+Other objects in the BOM include navigator (provides information about the browser), location (provides information about the URL of the document), history (provides methods for navigating through the browser history), and screen (provides information about the user's screen).
+Unlike the DOM, the BOM is not standardized by a specific organization and varies between different browsers.
+Developers can use the BOM to interact with the browser environment, manipulate the browser window, control navigation, and gather information about the user's system.

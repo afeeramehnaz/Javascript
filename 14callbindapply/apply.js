@@ -1,3 +1,5 @@
+/**************apply************* */
+
 /*In JavaScript, the apply() method is used to call a function with a given this value and arguments 
 provided as an array (or an array-like object). */
 

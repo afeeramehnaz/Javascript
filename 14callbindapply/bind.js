@@ -1,3 +1,5 @@
+/**************bind************* */
+
 /**
  * 
  * In JavaScript, the bind method is used to create a new function that, 
@@ -8,13 +10,13 @@
 
 const person = {
   name: 'John',
-  sayHello: function () {
-    console.log(`Hello, my name is ${this.name}`);
+  sayHello: function (age) {
+    console.log(`Hello, my name is ${this.name} and my age is ${age}`);
   }
 };
 
 // Create a bound function with 'person' as the 'this' value
-const boundSayHello = person.sayHello.bind(person);
+const boundSayHello = person.sayHello.bind(person,45);
 
 // Now, 'boundSayHello' can be called independently of 'person'
 boundSayHello(); // Outputs: Hello, my name is John

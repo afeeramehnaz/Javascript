@@ -1,5 +1,5 @@
+/*********************Closures************* */
 /*
-
 Closures are a powerful and fundamental concept in JavaScript. 
 A closure occurs when a function is defined inside another function, 
 and the inner function has access to the variables of the outer (enclosing) function 

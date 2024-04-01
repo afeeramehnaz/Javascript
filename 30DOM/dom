@@ -1,0 +1,10 @@
+
+DOM (Document Object Model) and BOM (Browser Object Model) are both essential components of web development, but they serve different purposes:
+
+DOM (Document Object Model):
+
+The DOM represents the structure of a document, such as HTML or XML, as a tree of objects.
+It provides a structured representation of the document and defines how the structure can be accessed and manipulated.
+Each node in the tree represents a part of the document, such as elements, attributes, and text.
+Developers can use the DOM to dynamically access, add, delete, or modify elements and attributes within a web page using JavaScript.
+The DOM is standardized by the W3C (World Wide Web Consortium) and is implemented by all modern web browsers.

@@ -1,0 +1,24 @@
+Syntax:
+
+Promises: Promises use .then() and .catch() methods to handle asynchronous operations. They are based on chaining methods and are a bit more verbose.
+Async/Await: Async/await uses the async and await keywords to write asynchronous code that looks and behaves like synchronous code. This makes the code more readable and easier to understand.
+
+Error Handling:
+
+Promises: Error handling in promises is done using the .catch() method or by chaining .then() methods and handling errors within each .then() block.
+Async/Await: Error handling in async/await is done using try...catch blocks, which makes error handling more similar to synchronous code and often easier to manage.
+
+Readability:
+
+Promises: Promises are suitable for handling asynchronous code but can lead to "callback hell" when dealing with multiple nested callbacks.
+Async/Await: Async/await offers a more readable and cleaner syntax, making asynchronous code look similar to synchronous code, which can improve code maintainability and reduce cognitive load.
+
+Debugging:
+
+Promises: Debugging promises can sometimes be challenging, especially when dealing with long promise chains or complex error handling.
+Async/Await: Debugging async/await code is generally easier because it closely resembles synchronous code, and errors can be caught using regular try...catch blocks.
+
+Performance:
+
+Promises: Promises and async/await have similar performance characteristics since async/await is built on top of promises. Async/await might have a slight performance overhead due to the use of generators under the hood in some environments.
+Async/Await: Since async/await is syntactic sugar over promises, there shouldn't be any significant difference in performance between using async/await and promises.

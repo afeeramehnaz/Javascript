@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Example</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Hello, World!</h1>
+    <button id="btn">Click me!</button>
+
+    <script>
+        // Selecting elements from the DOM
+        const heading = document.getElementById('heading');
+        const button = document.getElementById('btn');
+
+        // Adding an event listener to the button
+        button.addEventListener('click', function() {
+            // Changing the text content of the heading
+            heading.textContent = 'Button clicked!';
+
+            // Adding a CSS class to the heading
+            heading.classList.add('highlight');
+        });
+    </script>
+</body>
+</html>
+<!--
+We have an HTML document containing a heading (<h1>) and a button (<button>).
+    We've added an id attribute to both the heading and the button, which allows us to select them using document.getElementById().
+    In the JavaScript section, we've selected the heading and the button using getElementById.
+    We've added an event listener to the button using addEventListener. When the button is clicked, the function inside the event listener is executed.
+    Inside the event listener function, we're changing the text content of the heading using textContent.
+    We're also adding a CSS class to the heading using classList.add(), which highlights the heading by changing its background color.
+
+-->

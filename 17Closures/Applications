@@ -1,0 +1,10 @@
+
+1.Callback Functions: Closures are commonly used with callback functions in event-driven programming. For example, in JavaScript, you might use a closure to define a callback function that remembers certain variables from its parent scope.
+
+2.Encapsulation: Closures help encapsulate functionality, allowing you to create private variables and methods within a function, keeping them inaccessible from the outside world.
+
+3.Iterators and Generators: Closures are used to create iterators and generators in languages like Python. These are objects that allow you to iterate over a sequence of data, like a list or array, and perform actions on each item.
+
+4.Memoization: Closures can be used to implement memoization, which is a technique used to optimize functions by caching previously computed results.
+
+5.Asynchronous Programming: In languages like JavaScript, closures are essential for handling asynchronous operations. They capture the variables needed for the callback functions that handle the results of asynchronous tasks.

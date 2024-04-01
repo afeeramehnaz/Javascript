@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOM Example</title>
+</head>
+<body>
+    <h1>BOM Example</h1>
+    <button id="btn">Click me to open a new window!</button>
+
+    <script>
+        // Function to open a new browser window
+        function openNewWindow() {
+            // Using the window.open() method to open a new window
+            // Here, we're opening a new window with Google's homepage
+            const newWindow = window.open('https://www.google.com', '_blank', 'width=600,height=400');
+            
+            // Check if the new window is opened successfully
+            if (newWindow) {
+                // Adding an event listener to the new window
+                newWindow.addEventListener('load', function() {
+                    // When the new window is loaded, alert a message
+                    newWindow.alert('New window loaded successfully!');
+                });
+            } else {
+                // If the new window couldn't be opened, alert an error message
+                alert('Failed to open new window. Please check your browser settings.');
+            }
+        }
+
+        // Adding an event listener to the button to trigger the function
+        document.getElementById('btn').addEventListener('click', openNewWindow);
+    </script>
+</body>
+</html>
+
+
+<!--
+We have an HTML document containing an <h1> heading and a <button>.
+The <button> has an id attribute set to "btn" which allows us to select it in JavaScript.
+We've defined a JavaScript function called openNewWindow() which uses window.open() to open a new browser window with Google's homepage. We've specified the URL, the target ( _blank to open in a new tab or window), and the window features (such as width and height) as parameters.
+Inside the openNewWindow() function, we've added an event listener to the newly opened window using addEventListener(). When the new window is loaded, an alert message is shown.
+If the new window couldn't be opened (e.g., due to popup blockers), an error message is alerted.
+-->

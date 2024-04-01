@@ -1,5 +1,4 @@
-/**
- * 
+/***********Promises*********************************** 
 Promises are a fundamental concept in JavaScript used for handling asynchronous operations. 
 They provide a more elegant way to deal with asynchronous code compared to traditional callback functions. 
 Promises represent the eventual completion or
@@ -20,6 +19,7 @@ const myPromisee = new Promise((resolve, reject) => {
 // Pending: Initial state, neither fulfilled nor rejected.
 // Fulfilled: The operation completed successfully.
 // Rejected: The operation failed.
+// Settled - This state represents that the promise has been either rejected or fulfilled.
 
 
 
